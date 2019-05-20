@@ -28,7 +28,7 @@ public class Factura extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String nombre=request.getParameter("nombre");
+		String nombre=request.getParameter("nombres");
 		String apellido=request.getParameter("apellido");
 		String subtotal=request.getParameter("subtotal");
 		String porcentajeIva=request.getParameter("porcentajeIva");
