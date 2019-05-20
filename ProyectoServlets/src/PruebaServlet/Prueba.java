@@ -30,7 +30,7 @@ public class Prueba extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
-		out.println("hello world");
+		out.println("hello world1");
 	}
 
 	
